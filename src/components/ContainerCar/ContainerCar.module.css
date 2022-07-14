@@ -1,7 +1,20 @@
-.container{
-    background-color: red;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
+                           /* First Div */
+
 .container__inner{
-    background-color: aqua;
+    width: 100vw;
+    background-color: #000;
 }
+
+.container__inner__title{
+    color: #fff;
+}
+
+
+

@@ -1,3 +1,7 @@
 .dropdown_car{
     background-color: aqua;
 }
+
+.dropdown_car__image{
+    width: 200px;
+}
