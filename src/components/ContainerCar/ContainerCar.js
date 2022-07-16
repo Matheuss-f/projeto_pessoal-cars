@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import DropdownCar from "../Dropdowncar/DropdownCar";
 import BannerContainerOne from '../../assets/images/banner_container_one.jpg'
 import Car1 from '../../assets/images/car1.jpg'
@@ -12,6 +12,18 @@ import ContentCarBlack from "../ContentCar/ContentCarBlack";
 import ContentCarWhite from "../ContentCar/ContentCarWhite";
 
 function ContainerCar() {
+
+  const[ isWhite, setIsWhite] = useState(false)
+
+  const backgroundWhite = () =>{
+    const white = document.getElementById("content")
+
+    if(isWhite){
+      return white.style.background="#fff"
+    }else{
+      white.style.background="#000"
+    }
+  }
 
   return (
     <>
@@ -30,7 +42,6 @@ function ContainerCar() {
         src={Car1}
         title={'Rolls-Royce Boat Tail'}
         text={'Feito sob encomenda, Rolls-Royce Boat Tail é o carro mais caro do mundo. Não é a primeira vez que a Rolls-Royce ocupa o topo do ranking de modelos mais caros. Em 2017, o Sweptail foi feito a pedido de um europeu endinheirado.Na época, o modelo se tornou o carro mais caro do mundo, chegando a custar o equivalente a R$ 43 milhões,mas seu posto foi perdido para o Bugatti La Voiture Noir, de R$ 70,7 milhões.'}
-        background={styles.container_black}
         />
 
         <ContentCarWhite

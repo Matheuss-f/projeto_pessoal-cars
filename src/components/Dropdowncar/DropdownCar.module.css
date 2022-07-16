@@ -16,3 +16,11 @@
     position: absolute;
     right: 5vw;
 }
+
+.dropdown_car__container_image__content{
+    list-style: none;
+    text-align: start;
+    font-size: 1.2vw;
+    color: #00BFE9;
+    font-weight: bolder;
+}

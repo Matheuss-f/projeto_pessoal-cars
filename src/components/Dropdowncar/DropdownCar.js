@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { CaretDownOutlined } from "@ant-design/icons"
 import styles from "./DropdownCar.module.css"
 
-function DropdownCar({ src }) {
+function DropdownCar() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
@@ -10,7 +10,7 @@ function DropdownCar({ src }) {
       <div
         onClick={() => setIsOpen(!isOpen)}
       >
-        <h2 className={styles.dropdown_car__title}>Ver mais <CaretDownOutlined /></h2>
+        <h2 className={styles.dropdown_car__title}>Informações <CaretDownOutlined /></h2>
       </div>
 
       {isOpen && (
