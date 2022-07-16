@@ -1,6 +1,6 @@
 .container__two{
     display: flex;
-    background-color: #000;
+    background-color: #fff;
     height: 25vw;
     padding-bottom: 5vw;
 }
@@ -8,6 +8,9 @@
 .contaner__two__content__image{
     width: 30vw;
     height: 21.9vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contaner__two__content__image__inner{
@@ -28,8 +31,12 @@
 }
 
 .container__two__description__text{
-    color: #fff;
+    color: #000;
     font-size: 1.2vw;
     text-align: justify;
     width: 63vw;
+}
+
+.container__two__description__dropdown{
+    text-align: right;
 }

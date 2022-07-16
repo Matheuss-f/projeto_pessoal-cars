@@ -1,5 +1,6 @@
 import React from "react";
-import styles from "./ContentCar.module.css"
+import styles from "./ContentCarWhite.module.css"
+import DropdownCar from "../Dropdowncar/DropdownCar.js"
 
 function ContentCar({ title, text, src }) {
 
@@ -13,6 +14,9 @@ function ContentCar({ title, text, src }) {
       <div className={styles.container__two__description}>
         <h2 className={styles.container__two__description__title}>{title}</h2>
         <p className={styles.container__two__description__text}>{text}</p>
+        <div className={styles.container__two__description__dropdown}>
+          <DropdownCar />
+        </div>
       </div>
     </div>
   )

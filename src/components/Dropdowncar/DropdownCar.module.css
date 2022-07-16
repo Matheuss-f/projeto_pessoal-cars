@@ -1,5 +1,5 @@
 .dropdown_car{
-    background-color: #000;
+    background-color: transparent;
 }
 
 .dropdown_car__image{
@@ -7,6 +7,12 @@
     height: 100%;
 }
 
-.drpdown_car__title{
-    color: #fff;
+.dropdown_car__title{
+    color: #00BFE9;
+    font-size: 1.5vw;
+}
+
+.dropdown_car__container_image__content{
+    position: absolute;
+    right: 5vw;
 }
