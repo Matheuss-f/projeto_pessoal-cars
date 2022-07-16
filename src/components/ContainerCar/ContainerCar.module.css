@@ -7,13 +7,62 @@
 
                            /* First Div */
 
-.container__inner{
+.container__one{
     width: 100vw;
+    position: relative;
     background-color: #000;
 }
 
-.container__inner__title{
+.container__one__banner{
+    width: 100%;
+    height: 100%;
+}
+
+.container__one__content__inner{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 3vw;
+    left: 6vw;
+}
+
+.container__one__content__inner__title{
     color: #fff;
+    font-size: 5vw;
+}
+
+.container__one__down__arrow{
+    margin-left: 42vw;
+    margin-top: 7vw;
+}
+
+.container__one__arrow{
+    font-size: 5vw;
+    color: #00BFE9;
+    top: 8vw;
+    left: 6vw;
+}
+
+span{
+    color: #00BFE9;
+}
+
+
+
+
+
+.container__two{
+    display: flex;
+    height: 500px;
+}
+
+.contaner__two__content__image{
+    width: 30vw;
+    height: 21.9vw;
+}
+
+.contaner__two__content__image__inner{
+    width: 100%;
 }
 
 

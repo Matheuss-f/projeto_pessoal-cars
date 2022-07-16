@@ -8,18 +8,19 @@ function DropdownCar({ src }) {
   return (
     <div className={styles.dropdown_car}>
       <div
-      className="dropwdown-car__inner"
-      onClick={() => setIsOpen(!isOpen)}
-      > 
-        <h2>Ver mais <CaretDownOutlined /></h2>
+        className="dropwdown-car__inner"
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        <h2 className={styles.drpdown_car__title}>Ver mais <CaretDownOutlined /></h2>
       </div>
 
       {isOpen && (
         <>
-          <img
-          src={src}
-          className={styles.dropdown_car__image}
-          />
+          <div className={styles.dropdown_car__container_image}>
+            <iframe
+              src={src}
+            />
+          </div>
         </>
       )}
     </div>
