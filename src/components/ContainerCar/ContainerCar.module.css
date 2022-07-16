@@ -5,8 +5,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-                           /* First Div */
-
 .container__one{
     width: 100vw;
     position: relative;
@@ -46,24 +44,3 @@
 span{
     color: #00BFE9;
 }
-
-
-
-
-
-.container__two{
-    display: flex;
-    height: 500px;
-}
-
-.contaner__two__content__image{
-    width: 30vw;
-    height: 21.9vw;
-}
-
-.contaner__two__content__image__inner{
-    width: 100%;
-}
-
-
-

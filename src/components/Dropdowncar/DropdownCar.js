@@ -8,7 +8,6 @@ function DropdownCar({ src }) {
   return (
     <div className={styles.dropdown_car}>
       <div
-        className="dropwdown-car__inner"
         onClick={() => setIsOpen(!isOpen)}
       >
         <h2 className={styles.drpdown_car__title}>Ver mais <CaretDownOutlined /></h2>
