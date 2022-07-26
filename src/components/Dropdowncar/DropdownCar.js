@@ -1,30 +1,36 @@
 import React, { useState } from "react";
 import { CaretDownOutlined } from "@ant-design/icons"
-import styles from "./DropdownCar.module.css"
+import {
+  DropDownCar,
+  ContentTitle,
+  Title,
+  Container,
+  InfoList,
+} from "./styles"
 
 function DropdownCar() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <div className={styles.dropdown_car}>
-      <div
+    <DropDownCar>
+      <ContentTitle
         onClick={() => setIsOpen(!isOpen)}
       >
-        <h2 className={styles.dropdown_car__title}>Informações <CaretDownOutlined /></h2>
-      </div>
+        <Title>Informações <CaretDownOutlined /></Title>
+      </ContentTitle>
 
       {isOpen && (
         <>
-          <div className={styles.dropdown_car__container_image}>
-            <ul className={styles.dropdown_car__container_image__content}> 
+          <Container>
+            <InfoList> 
               <li>Valor:</li>
               <li>Ano:</li>
               <li>Fabricante:</li>
-            </ul>
-          </div>
+            </InfoList>
+          </Container>
         </>
       )}
-    </div>
+    </DropDownCar>
   )
 }
 
