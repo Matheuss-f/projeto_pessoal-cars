@@ -16,7 +16,7 @@ import {
   ContainerDownArrow
 } from "./styles"
 
-function ContainerCar() {
+function ContainerCar(props) {
 
   return (
     <>
@@ -38,6 +38,8 @@ function ContainerCar() {
         />
 
         <ContentCar
+        isWhite
+        textBlack
         src={Car2}
         title={'Bugatti Centodieci'}
         text={'O Bugatti Centodieci é um carro ultra-exclusivo, do qual serão produzidas apenas 10 unidades no mundo. Um de seus afortunados clientes é Cristiano Ronaldo, que em breve poderá adicioná-lo à sua coleção. Como lembrete, o Centodieci é um dos carros mais caros do mercado. Seu preço começa em 8 milhões de euros (R$ 42,2 milhões em conversão direta), o que é bem mais em relação ao Bugatti Chiron em que é baseado.'}
@@ -50,6 +52,8 @@ function ContainerCar() {
         />
 
         <ContentCar
+        isWhite
+        textBlack
         src={Car4}
         title={'Pagani Huayra'}
         text={'O modelo foi apresentado na versão BC com um motor que agora gera 800 cv e 112,1 mkgf e uma nova transmissão de dupla embreagem de sete marchas. O huayra BC pesa 1.218 kg, 132 kg a menos que a versão standard, serão produzidas apenas 20 unidades com preço de 2.3 milhões de euros.'}

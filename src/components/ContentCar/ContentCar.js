@@ -12,10 +12,10 @@ import {
 } from "./styles"
 
 
-function ContentCar({ title, text, src }) {
+function ContentCar({ title, text, src, isWhite, textBlack }) {
 
   return (
-    <Container>
+    <Container isWhite={isWhite}>
       <ContainerContent>
         <ContainerImage>
           <Image src={src} />
@@ -23,7 +23,7 @@ function ContentCar({ title, text, src }) {
       </ContainerContent>
       <Description>
         <Title>{title}</Title>
-        <Text>{text}</Text>
+        <Text textBlack={textBlack}>{text}</Text>
         <DropContent>
           <DropdownCar />
         </DropContent>

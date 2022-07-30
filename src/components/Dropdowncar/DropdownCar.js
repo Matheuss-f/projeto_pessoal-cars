@@ -23,9 +23,9 @@ function DropdownCar() {
         <>
           <Container>
             <InfoList> 
-              <li>Valor:</li>
-              <li>Ano:</li>
-              <li>Fabricante:</li>
+              <li>Valor: 00,00</li>
+              <li>Ano: 0000</li>
+              <li>Fabricante: xxxx</li>
             </InfoList>
           </Container>
         </>

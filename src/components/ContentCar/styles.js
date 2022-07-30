@@ -2,9 +2,16 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     display: flex;
-    background-color: #000;
+    background-color: ${({isWhite}) => isWhite? '#fff' : '#000'};
     height: 25vw;
     padding-bottom: 5vw;
+
+    @media screen and (max-width: 1200px){
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 70vw;
+    }
 `
 
 export const ContainerContent = styled.div`
@@ -28,10 +35,14 @@ export const Title = styled.h2`
 `
 
 export const Text = styled.p`
-    color: #fff;
+    color: ${({textBlack}) => textBlack? '#000' : '#fff'};
     font-size: 1.2vw;
     text-align: justify;
     width: 63vw;
+
+    @media screen and (max-width: 1200px){
+        font-size: 2vw;
+    }
 `
 
 export const DropContent = styled.div`
@@ -44,5 +55,10 @@ export const ContainerImage = styled.div`
     height: 21.9vw;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+
+    @media screen and (max-width: 1200px){
+        width: 50vw;
+        margin-bottom: 7vw;
+    }
 `
