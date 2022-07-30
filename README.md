@@ -15,8 +15,12 @@ The project was made in React.js, with the objective of studying.<br/>
 # Images of Project
 <br />
 <h1>Desktop💻</h1>
+<br/>
+<img src="https://github.com/Matheuss-f/projeto_pessoal/blob/master/src/assets/images/desktop.jpg?raw=true" />
+<br/>
 <h1>Mobile📱</h1>
-
+<br/>
+<img src="https://github.com/Matheuss-f/projeto_pessoal/blob/master/src/assets/images/mobile.jpg?raw=true" />
 
 
 
