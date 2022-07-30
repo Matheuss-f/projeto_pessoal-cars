@@ -10,7 +10,7 @@ export const Title = styled.h2`
     color: #00BFE9;
     font-size: 1.5vw;
     @media screen and (max-width: 1200px){
-        font-size: 2vw;
+        font-size: 4vw;
     }
 `
 
@@ -29,8 +29,8 @@ export const InfoList = styled.ul`
     right: 5vw;
 
     @media screen and (max-width: 1200px){
-        font-size: 2vw;
-        right: 12vw;
+        font-size: 4vw;
+        right: 5vw;
         margin-top: 1vw;
     }
 `
