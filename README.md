@@ -21,7 +21,10 @@ The project was made in React.js, with the objective of studying.<br/>
 <h1>Mobile📱</h1>
 <br/>
 <img src="https://github.com/Matheuss-f/projeto_pessoal/blob/master/src/assets/images/mobile.jpg?raw=true" />
+<br />
 
+# Running the project
+To run the project just clone and give <b>npm install</b> and then <b>npm start</b>.
 
 
 
