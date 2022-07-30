@@ -25,6 +25,10 @@ The project was made in React.js, with the objective of studying.<br/>
 
 # Running the project
 To run the project just clone and give <b>npm install</b> and then <b>npm start</b>.
+<br/>
+
+# Project Deploy Link
+https://personal-project-car.herokuapp.com/
 
 
 
